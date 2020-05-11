@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="wetones.Right" size="7.200000 9.290322"/>
+        <ImageTarget name="wetones.Back" size="12.200000 9.302500"/>
+        <ImageTarget name="wetones.Bottom" size="12.200000 7.205625"/>
+        <ImageTarget name="wetones.Left" size="7.200000 9.299697"/>
+        <ImageTarget name="wetones.Top" size="12.200000 7.205625"/>
+        <ImageTarget name="wetones.Front" size="12.200000 9.302500"/>
+        <MultiTarget name="wetones">
+            <Part name="wetones.Left" translation="-6.099999904632568 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="wetones.Right" translation="6.099999904632568 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="wetones.Front" translation="0 0 3.5999999046325684" rotation="AD: 1 0 0 0"/>
+            <Part name="wetones.Back" translation="0 0 -3.5999999046325684" rotation="AD: 0 1 0 180"/>
+            <Part name="wetones.Top" translation="0 4.650000095367432 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="wetones.Bottom" translation="0 -4.650000095367432 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
