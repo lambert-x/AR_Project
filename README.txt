@@ -3,94 +3,125 @@ All the files are followed with the tutorial which have the scene and could be d
 *****************************
 System:
 
-OS Name	Microsoft Windows 10 Pro
-Version	10.0.18363 Build 18363
-
+macOS 10.15.4
 
 *****************************
 Softwares:
 
-Unity 2018.4.17f1 (64-bit)
+Unity 2018.4.21f1 Personal
+=== Visual Studio Community 2019 for Mac ===
 
-Microsoft Visual Studio Community 2017 
-Version 15.9.20
-VisualStudio.15.Release/15.9.20+28307.1033
-Microsoft .NET Framework
-Version 4.8.03752
+Version 8.5.4 (build 12)
+Installation UUID: 0a36a063-5cb5-40a9-b762-1264ff793a05
+	GTK+ 2.24.23 (Raleigh theme)
+	Xamarin.Mac 6.14.1.39 (d16-5 / 30e8706b4)
 
-Installed Version: Community
+	Package version: 608000123
 
-Visual C++ 2017   00369-60000-00001-AA477
-Microsoft Visual C++ 2017
+=== Mono Framework MDK ===
 
-Application Insights Tools for Visual Studio Package   8.14.20131.1
-Application Insights Tools for Visual Studio
+Runtime:
+	Mono 6.8.0.123 (2019-10/1d0d939dc30) (64-bit)
+	Package version: 608000123
 
-ASP.NET and Web Tools 2017   15.9.04012.0
-ASP.NET and Web Tools 2017
+=== Roslyn (Language Service) ===
 
-C# Tools   2.10.0-beta2-63501-03+b9fb1610c87cccc8ceb74a770dba261a58e39c4a
-C# components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.
+3.5.0-beta4-20125-04+1baa0b3063238ed752ad1f0368b1df6b6901373e
 
-Common Azure Tools   1.10
-Provides common services for use by Azure Mobile Services and Microsoft Azure Tools.
+=== NuGet ===
 
-JavaScript Language Service   2.0
-JavaScript Language Service
+Version: 5.4.0.6315
 
-JavaScript Project System   2.0
-JavaScript Project System
+=== .NET Core SDK ===
 
-JavaScript UWP Project System   2.0
-JavaScript UWP Project System
+SDK: /usr/local/share/dotnet/sdk/3.1.200/Sdks
+SDK Version: 3.1.200
+MSBuild SDKs: /Library/Frameworks/Mono.framework/Versions/6.8.0/lib/mono/msbuild/Current/bin/Sdks
 
-Microsoft JVM Debugger   1.0
-Provides support for connecting the Visual Studio debugger to JDWP compatible Java Virtual Machines
+=== .NET Core Runtime ===
 
-Microsoft MI-Based Debugger   1.0
-Provides support for connecting Visual Studio to MI compatible debuggers
+Runtime: /usr/local/share/dotnet/dotnet
+Runtime Versions:
+	3.1.2
+	2.1.17
 
-Microsoft Visual C++ Wizards   1.0
-Microsoft Visual C++ Wizards
+=== Xamarin.Profiler ===
 
-Microsoft Visual Studio VC Package   1.0
-Microsoft Visual Studio VC Package
+Version: 1.6.13.11
+Location: /Applications/Xamarin Profiler.app/Contents/MacOS/Xamarin Profiler
 
-MLGen Package Extension   1.0
-MLGen Package Visual Studio Extension Detailed Info
+=== Updater ===
 
-NuGet Package Manager   4.6.0
-NuGet Package Manager in Visual Studio. For more information about NuGet, visit http://docs.nuget.org/.
+Version: 11
 
-ProjectServicesPackage Extension   1.0
-ProjectServicesPackage Visual Studio Extension Detailed Info
+=== Xamarin.Android ===
 
-ResourcePackage Extension   1.0
-ResourcePackage Visual Studio Extension Detailed Info
+Not Installed
 
-ResourcePackage Extension   1.0
-ResourcePackage Visual Studio Extension Detailed Info
+=== Microsoft Mobile OpenJDK ===
 
-Test Adapter for Boost.Test   1.0
-Enables Visual Studio's testing tools with unit tests written for Boost.Test.  The use terms and Third Party Notices are available in the extension installation directory.
+Java SDK: Not Found
 
-Test Adapter for Google Test   1.0
-Enables Visual Studio's testing tools with unit tests written for Google Test.  The use terms and Third Party Notices are available in the extension installation directory.
+Android Designer EPL code available here:
+https://github.com/xamarin/AndroidDesigner.EPL
 
-TypeScript Tools   15.9.30718.2001
-TypeScript Tools for Microsoft Visual Studio
+=== Android SDK Manager ===
 
-Visual Basic Tools   2.10.0-beta2-63501-03+b9fb1610c87cccc8ceb74a770dba261a58e39c4a
-Visual Basic components used in the IDE. Depending on your project type and settings, a different version of the compiler may be used.
+Version: 16.5.0.39
+Hash: 6fb4c79
+Branch: remotes/origin/d16-5
+Build date: 2020-04-15 20:49:08 UTC
 
-Visual Studio Code Debug Adapter Host Package   1.0
-Interop layer for hosting Visual Studio Code debug adapters in Visual Studio
+=== Android Device Manager ===
 
-Visual Studio Tools for CMake   1.0
-Visual Studio Tools for CMake
+Version: 16.5.0.71
+Hash: 49194e8
+Branch: remotes/origin/d16-5~1
+Build date: 2020-04-15 20:49:28 UTC
 
-Visual Studio Tools for Unity   3.9.0.3
-Visual Studio Tools for Unity
+=== Apple Developer Tools ===
 
-Visual Studio Tools for Universal Windows Apps   15.0.28307.1000
-The Visual Studio Tools for Universal Windows apps allow you to build a single universal app experience that can reach every device running Windows 10: phone, tablet, PC, and more. It includes the Microsoft Windows 10 Software Development Kit.
+Xcode 11.4.1 (16137)
+Build 11E503a
+
+=== Xamarin.Mac ===
+
+Xamarin.Mac not installed. Can't find /Library/Frameworks/Xamarin.Mac.framework/Versions/Current/Version.
+
+=== Xamarin.iOS ===
+
+Version: 13.16.0.13 (Visual Studio Community)
+Hash: b75deaf82
+Branch: d16-5-xcode11.4
+Build date: 2020-04-01 21:33:19-0400
+
+=== Xamarin Designer ===
+
+Version: 16.5.0.471
+Hash: 35aa4889d
+Branch: remotes/origin/d16-5
+Build date: 2020-02-25 00:52:08 UTC
+
+=== Xamarin Inspector ===
+
+Version: 1.4.3
+Hash: db27525
+Branch: 1.4-release
+Build date: Mon, 09 Jul 2018 21:20:18 GMT
+Client compatibility: 1
+
+=== Build Information ===
+
+Release ID: 805040012
+Git revision: 7642369422103e19b0b8d29ddc211abf2fd32607
+Build date: 2020-04-16 08:55:15-04
+Build branch: release-8.5
+Xamarin extensions: 7642369422103e19b0b8d29ddc211abf2fd32607
+
+=== Operating System ===
+
+Mac OS X 10.15.4
+Darwin 19.4.0 Darwin Kernel Version 19.4.0
+    Wed Mar  4 22:28:40 PST 2020
+    root:xnu-6153.101.6~15/RELEASE_X86_64 x86_64
+
