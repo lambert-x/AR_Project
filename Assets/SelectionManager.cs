@@ -7,10 +7,11 @@ public class SelectionManager : MonoBehaviour
     [SerializeField] private string selectableTag = "Selectable";
     [SerializeField] private Material highlightMaterial;
     [SerializeField] private Material defaultMaterial;
+    private Material originMaterial;
     //public GameObject joycursor;
     Vector3 screenPos;
     Vector2 screenPos_2;
-    public Transform _selection;
+    public GameObject _selection;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +22,12 @@ public class SelectionManager : MonoBehaviour
     {
         if (_selection != null)
         {
-            var selectionRenderer = _selection.GetComponent<Renderer>();
-            selectionRenderer.material = defaultMaterial;
+            var selectionRenderers = _selection.GetComponentsInChildren<Renderer>();
+            //selectionRenderer.material = defaultMaterial;
+            foreach (Renderer child in selectionRenderers)
+            {
+                child.material = originMaterial;
+            }
             _selection = null;
         }
         //if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
@@ -42,14 +47,19 @@ public class SelectionManager : MonoBehaviour
             {
                 //Debug.Log(Input.GetTouch(0).position);
             }
-            var selection = hit.transform;
+            var selection = hit.transform.gameObject;
             //Debug.Log(hit.transform.name);
             if (selection.CompareTag(selectableTag))
             {
-                var selectionRenderer = selection.GetComponent<Renderer>();
-                if (selectionRenderer != null)
+                var selectionRenderers = selection.GetComponentsInChildren<Renderer>();
+                if (selectionRenderers.Length > 0 )
                 {
-                    selectionRenderer.material = highlightMaterial;
+                    foreach (Renderer child in selectionRenderers)
+                    {
+                        originMaterial = child.material;
+                        child.material = highlightMaterial;
+                    }
+                    
                 }
                 _selection = selection;
             }

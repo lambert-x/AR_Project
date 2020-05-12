@@ -5,7 +5,7 @@ using UnityEngine;
 public class Joystick_controller : MonoBehaviour
 {
     protected Joystick joystick;
-    protected Joybutton joybutton;
+    //protected Joybutton joybutton;
     private new Camera camera;
 
     // Start is called before the first frame update
@@ -16,7 +16,7 @@ public class Joystick_controller : MonoBehaviour
 
         //Position_inscreen = transform.position;
         joystick = FindObjectOfType<Joystick>();
-        joybutton = FindObjectOfType<Joybutton>();
+        //joybutton = FindObjectOfType<Joybutton>();
     }
 
     // Update is called once per frame
