@@ -1,4 +1,4 @@
-All the files are followed with the tutorial which have the scene and could be directly build and run with the HoloLens Emulator.
+All the files are followed with the tutorial which have the scene and could be directly build with macOS and run on iOS 13.4.1.
 
 *****************************
 System:
